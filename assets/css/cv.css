@@ -1,0 +1,55 @@
+.site_header {
+  background-color: black;
+  color: white; }
+  .site_header .container .site_header_cover .background_image_items img {
+    display: block;
+    margin: 0 auto; }
+  .site_header .container .site_header_cover .background_image_items a {
+    position: relative; }
+  .site_header .container .site_header_ifbasic {
+    display: flex;
+    justify-content: center; }
+    .site_header .container .site_header_ifbasic .product {
+      width: 800px;
+      display: flex; }
+      .site_header .container .site_header_ifbasic .product_image {
+        display: flex; }
+        .site_header .container .site_header_ifbasic .product_image_item1 {
+          width: 176px;
+          height: 176px;
+          border: 1px solid black;
+          border-radius: 50%;
+          position: relative;
+          bottom: 25px;
+          background-color: pink; }
+      .site_header .container .site_header_ifbasic .product_name {
+        position: relative;
+        left: 10px; }
+        .site_header .container .site_header_ifbasic .product_name_amountFr {
+          position: relative;
+          bottom: 10px; }
+        .site_header .container .site_header_ifbasic .product_name_imgFr img {
+          width: 32px;
+          height: 32px;
+          border: 1px solid black;
+          border-radius: 50px; }
+      .site_header .container .site_header_ifbasic .product_edit {
+        display: flex;
+        justify-content: start;
+        position: relative;
+        top: 100px;
+        left: 50px; }
+        .site_header .container .site_header_ifbasic .product_edit_moreNew a {
+          background-color: blue;
+          margin-right: 15px;
+          text-decoration: none; }
+        .site_header .container .site_header_ifbasic .product_edit_edpersonal a {
+          text-decoration: none; }
+  .site_header .container .site_header_function .menu_list {
+    position: relative;
+    left: 333px; }
+    .site_header .container .site_header_function .menu_list_item {
+      float: left;
+      margin: 15px; }
+
+/*# sourceMappingURL=cv.css.map */

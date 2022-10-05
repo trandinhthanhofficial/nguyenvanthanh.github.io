@@ -1,0 +1,111 @@
+.site{
+    &_header{
+        background-color: black;
+        color:white;
+        .container{
+            .site_header_cover{
+                .background{
+                    &_image{
+                        &_items{
+                            img{
+                                display: block;
+                                margin : 0 auto;
+                            }
+                            a{
+                                position: relative;
+                                // left : 910px;
+                                // bottom: 40px;
+                                // background-color: white;
+                                // text-decoration: none;
+                                // border: 1px solid ;
+                                // padding-left: 10px;
+                                // padding-right: 10px;
+                                // padding-top: 5px;
+                                // padding-bottom: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+            .site_header_ifbasic{
+                display: flex;
+                justify-content: center;
+                .product{
+                    width:800px;
+                    display: flex;
+                    &_image{
+                        display: flex;
+                        &_item1{
+                            width: 176px;
+                            height :176px;
+                            border: 1px solid black;
+                            border-radius: 50%;
+                            position: relative;
+                            bottom: 25px;
+                            background-color: pink;
+                        }
+                        &_item2{}
+                    }
+                    &_name{
+                        position: relative;
+                        left:10px;
+                        &_nickname{
+
+                        }
+                        &_amountFr{
+                            position: relative;
+                            bottom: 10px;
+                        }
+                        &_imgFr{
+                            img{
+                                width :32px;
+                                height:32px;
+                                border:1px solid black;
+                                border-radius: 50px;
+                                // background-color: black;
+                                
+                            }
+                        }
+                    }
+                    &_edit{
+                        display: flex;
+                        justify-content: start;
+                        position: relative;
+                        top: 100px;
+                        left:50px;
+                        &_moreNew{
+                            a{
+                                background-color: blue;
+                                margin-right: 15px;
+                                text-decoration: none;
+                                // color:white;
+                            }
+                        }
+                        &_edpersonal{
+                            a{
+                                // color:white;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+            .site_header_function{
+                // background-color: black;
+                .menu{
+                    &_list{
+                        position: relative;
+                        left:333px;
+                        &_item{
+                            float: left;
+                            margin: 15px;
+                            a{
+                                // color:white;
+                            }
+                        }
+                    }
+                }   
+            }
+        }
+    }
+}

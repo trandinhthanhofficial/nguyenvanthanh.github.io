@@ -1,0 +1,321 @@
+a{
+    color:black;
+}
+// h3{
+//     padding:0px 0px 0px 0px;
+//     margin: 0px 0px 0px 0px;
+// }
+.site{
+    &_header{
+        .container{
+            .site_header_cover{
+                width:100%;
+                .background{
+                    &_image{
+                        &_items{
+                            display: block;
+                            margin : 0 auto;
+                            max-width: 948px;
+                            max-height: 348px;
+                            .imageChange{
+                                width: 948px;
+                                height: 348px;
+                            }
+                            .menu{
+                                width:100%;
+                                &_list{
+                                    width:100%;
+                                    display: flex;
+                                    justify-content: end;
+                                    padding-left: 10px;
+                                    padding-right: 10px;
+                                    width:948px;
+                                    &_items{
+                                        width:18%;
+                                        display: flex;
+                                        justify-content: center;
+                                        position: relative;
+                                        bottom:50px;
+                                        right:20px;
+                                        background-color: white;
+                                        border-radius: 4px;
+                                        .camera{
+                                            
+                                            img{
+                                                width:16px;
+                                                height:16px;
+                                            }
+                                        }
+                                        .word{
+                                            text-decoration: none;
+                                            margin-left:5px;
+                                            margin-right: 5px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .site_header_ifbasic{
+                display: flex;
+                justify-content: center;
+                padding-top: 20px;  
+                padding-bottom: 20px;
+                .product{
+                    width:948px;
+                    display: flex;
+                    justify-content: space-between;
+                    &_image{
+                        &_item{
+                            width:168px;
+                            height:168px;
+                            border: 4px solid #1b74e4;
+                            border-radius: 50%;
+                                img{
+                                    width:168px;
+                                    height:168px;
+                                    border-radius: 50%;
+                                }
+                        }
+                    }
+                    &_name{
+                        position: relative;
+                        right:120px;
+                        &_nickname{
+
+                        }
+                        &_amountFr{
+
+                        }
+                        &_imgFr{
+
+                        }
+                    }
+                    &_edit{
+                        display:flex ;
+                        flex-direction: column;
+                        align-items: flex-end;
+                        &_moreNew{
+                            background-color: #1b74e4;
+                            border: 1px solid ;
+                            padding-left: 10px;
+                            padding-right: 10px;
+                            padding-top: 3px;
+                            padding-bottom: 3px;    
+                            width:134px;
+                            height:36px;
+                            border-radius: 10px;
+                            display: flex;
+                            justify-content: center;
+                            img{
+                                width:16px;
+                                height:16px;
+                                position: relative;
+                                top:8px;
+                                right: 5px;
+                            }
+                            a{
+                                text-decoration: none;
+                                color: white;
+                                position: relative;
+                                top:5px;
+                            }
+                        }
+                        &_edpersonal{
+                            background-color: #1b74e4;
+                            border: 1px solid ;
+                            padding-left: 10px;
+                            padding-right: 10px;
+                            padding-top: 3px;
+                            padding-bottom: 3px;
+                            width:211px;
+                            height:36px;
+                            border-radius: 10px;
+                            display: flex;
+                            justify-content: center;
+                            img{
+                                width:16px;
+                                height:16px;
+                                position: relative;
+                                top:8px;
+                                right: 5px;
+                            }
+                            a{
+                                text-decoration: none;
+                                color: white;
+                                position: relative;
+                                top:5px;
+                            }
+                        }
+                    }
+                }
+            }
+            .site_header_function{
+                .menu{
+                    display: flex;
+                    justify-content: center;
+                    &_list{
+                        list-style-type: none;
+                        display: flex;
+                        width:948px;
+                        &_item{
+                            padding-left: 10px;
+                            :hover{
+                                background-color: #1b74e4;
+                                margin-top: 40px;
+                            }
+                            a{
+                                text-decoration: none;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                padding-top: 5px;
+                                padding-bottom: 5px;
+                                border-radius: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &_main{
+        display: flex;
+        justify-content: center;
+        .container{
+            width:948px;
+            display: flex;
+            justify-content: space-between  ;
+            align-items: flex-start;
+            .site_main_left{
+                width:29%;
+                .profile{
+                    &_introduce{
+                        &_menu{
+                            li{
+                                list-style-type: none;
+                                padding-bottom: 30px;
+                                a{
+                                    font-size: 15px;
+                                    font-weight: bold;
+                                    font-style: italic;
+                                }
+                            }
+                        }
+                    }
+                }
+            } 
+            .site_main_right{
+                width:69%;
+                // padding-left: 100px;
+                padding-top: 10px;
+                .Target{
+                    &_info{
+                        display: flex;
+                        &_image{
+                            width:40px;
+                            height:40px;
+                            border: 1px solid black;
+                            border-radius: 50%;
+                            img{
+                                width:40px;
+                                height:40px;
+                                border-radius: 50%;
+                            }
+                        }
+                        &_name{
+                            text-align: center;
+                            position: relative;
+                            top:10px;
+                            left:10px;
+                            a{
+                                text-decoration: none;
+                                font-size: 20px;
+                                font-weight: bold;
+                                font-style: italic
+                            }
+                        }
+                    }
+                    &_content{
+                        &_title{}
+                        &_word{
+                            img{
+                                width:600px;
+                            }
+                        }
+                    }
+                }
+                .Education{
+                    &_info{
+                        display: flex;
+                        &_image{
+                            width:40px;
+                            height:40px;
+                            border: 1px solid black;
+                            border-radius: 50%;
+                        }
+                        &_name{
+                            text-align: center;
+                            position: relative;
+                            top:10px;
+                            left:10px;
+                            a{
+                                text-decoration: none;
+                                font-size: 20px;
+                                font-weight: bold;
+                                font-style: italic
+                            }
+                        }
+                    }
+                    &_content{
+                        &_title{}
+                        &_word{
+                            img{
+                                width:600px;
+                            }
+                        }
+                    }
+                }
+                .Experience{
+                    &_info{
+                        display: flex;
+                        &_image{
+                            width:40px;
+                            height:40px;
+                            border: 1px solid black;
+                            border-radius: 50%;
+                        }
+                        &_name{
+                            text-align: center;
+                            position: relative;
+                            top:10px;
+                            left:10px;
+                            a{
+                                text-decoration: none;
+                                font-size: 20px;
+                                font-weight: bold;
+                                font-style: italic
+                            }
+                        }
+                    }
+                    &_content{
+                        &_title{}
+                        &_word{
+                            img{
+                                width: 600px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
